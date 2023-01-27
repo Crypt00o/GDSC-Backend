@@ -2,8 +2,7 @@
 
 ## Contents 
 1. [Compiled Languages vs Interpreted Languages](#what-is-meaning-by-compiled-language-and-interpreted-language-?)
-2. [Dynamic Typeing Languages vs Static Typeing Languages](#what-is-the-difference-between-dynamic-typeing-language-and-static-typeing-language ?
-)
+2. [Dynamic Typeing Languages vs Static Typeing Languages](#what-is-the-difference-between-dynamic-typeing-language-and-static-typeing-language ?)
 3. [What is JavaScript ?](#what-is-javascript-?)
 4. [What is ECMAScript ?](#what-is-ecmascript-?)
 5. [V8 vs SpiderMonkey vs Nodejs ](#what-is-v8-and-spidermonkey-and-nodejs-?)
