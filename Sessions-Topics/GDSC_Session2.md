@@ -1,4 +1,4 @@
-<h1 aligin="center">  Session 2 GDSC  </h1>
+<h1 aligin="center">  Session 2 - JavaScript   </h1>
 
 ## Contents 
 1. [Compiled Languages vs Interpreted Languages](#what-is-meaning-by-compiled-language-and-interpreted-language-?)
