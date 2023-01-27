@@ -1,11 +1,11 @@
 <h1 aligin="center">  Session 2 - JavaScript   </h1>
 
 ## Contents 
-1. [Compiled Languages vs Interpreted Languages](#what-is-meaning-by-compiled-language-and-interpreted-language-?)
-2. [Dynamic Typeing Languages vs Static Typeing Languages](#what-is-the-difference-between-dynamic-typeing-languages-and-static-typeing-language-?)
-4. [What is JavaScript ?](#what-is-javascript-?)
-5. [What is ECMAScript ?](#what-is-ecmascript-?)
-6. [V8 vs SpiderMonkey vs Nodejs ](#what-is-v8-and-spidermonkey-and-nodejs-?)
+1. [Compiled Languages vs Interpreted Languages](#compiled-language-vs-interpreted-language)
+2. [Dynamic Typeing Languages vs Static Typeing Languages](#dynamic-typeing-language-vs-static-typeing-language)
+4. [What is JavaScript ?](#javascript)
+5. [What is ECMAScript ?](#ecmascript)
+6. [V8 vs SpiderMonkey vs Nodejs ](#v8-vs-spidermonkey-vs-nodejs)
 7. JavaScript :
 	  1. [Variables](#variables)
 	  2. [Primtive Types](#primtive-types)
@@ -18,7 +18,7 @@
 ---
 <br><br>
 
-## What is meaning by Compiled language and Interpreted Language ?
+## Compiled language Vs Interpreted Language
 
 #### Compiled Languages
 - Compiled languages are converted directly into machine code that the processor can execute. As a result, they tend to be faster and more efficient to execute than interpreted languages. They also give the developer more control over hardware aspects, like memory management and CPU usage.
@@ -42,7 +42,10 @@
 ---
 <br><br>
 
-## What is the Difference Between Dynamic Typeing Language and Static Typeing Language ?
+## Dynamic Typeing Language Vs Static Typeing Language
+
+#### Staticlly Typed Languages
+
 - A language is statically typed if the type of a variable is known at compile time. For some languages this means that you as the programmer must specify what type each variable is; other languages (e.g.: Java, C, C++) offer some form of type inference, the capability of the type system to deduce the type of a variable (e.g.: OCaml, Haskell, Scala, Kotlin).
 
 The main advantage here is that all kinds of checking can be done by the compiler, and therefore a lot of trivial bugs are caught at a very early stage.
@@ -55,7 +58,7 @@ Examples: C, C++, Java, Rust, Go, Scala
 	  int age = 21 ;
 	  `
 
-Dynamically typed languages
+#### Dynamically Typed Languages
 A language is dynamically typed if the type is associated with run-time values, and not named variables/fields/etc. This means that you as a programmer can write a little quicker because you do not have to specify types every time (unless using a statically-typed language with type inference).
 
 Examples: Perl, Ruby, Python, PHP, JavaScript, Erlang
@@ -72,7 +75,9 @@ Most dynamically typed languages do allow you to provide type information, but d
 ---
 <br><br>
 
-## What is JavaScript ?
+## JavaScript
+
+#### So What is JavaScript?
 
 - JavaScript is a versatile programming language that is widely used to create interactive and dynamic websites. Developed in the mid-1990s, it was originally known as LiveScript and was later renamed to JavaScript. It is a high-level, interpreted programming language that is primarily used on the client-side, meaning that the code is executed by the user's web browser rather than on the server.
 
@@ -80,9 +85,9 @@ Most dynamically typed languages do allow you to provide type information, but d
 
 - One of the key features of JavaScript is that it is an object-oriented programming language, which means that it uses objects to represent real-world entities and their properties and methods. This allows developers to create complex and interactive applications using JavaScript.
 
-JavaScript is also a popular language for creating web-based games, mobile apps, and desktop applications. With the increasing popularity of JavaScript frameworks and libraries such as React, Angular, and Vue.js, it has become easier than ever to create powerful and efficient web applications using JavaScript.
+- JavaScript is also a popular language for creating web-based games, mobile apps, and desktop applications. With the increasing popularity of JavaScript frameworks and libraries such as React, Angular, and Vue.js, it has become easier than ever to create powerful and efficient web applications using JavaScript.
 
-Overall, JavaScript is a powerful and flexible programming language that is essential for creating dynamic and interactive websites and web applications.
+- Overall, JavaScript is a powerful and flexible programming language that is essential for creating dynamic and interactive websites and web applications.
 
 
 
@@ -91,7 +96,9 @@ Overall, JavaScript is a powerful and flexible programming language that is esse
 ---
 <br><br>
 
-## What is ECMAScript ? 
+## ECMAScript
+
+#### So What is ECMAScript ? 
 
 - ECMAScript (often referred to as simply "JavaScript" or "ES") is a standardized version of the programming language JavaScript. It is developed and maintained by the European Computer Manufacturers Association (ECMA).
 
@@ -108,7 +115,7 @@ Overall, JavaScript is a powerful and flexible programming language that is esse
 ---
 <br><br>
 
-## What is V8 and SpiderMonkey and Nodejs ? 
+## V8 vs SpiderMonkey vs Nodejs 
 
 - V8 is an open-source JavaScript engine developed by Google. It is written in C++ and is used to interpret and execute JavaScript code. V8 is designed to be fast and efficient and is used in Google Chrome and other Chromium-based browsers, as well as in other projects such as Node.js, MongoDB, and Appcelerator Titanium.
 
