@@ -1,6 +1,6 @@
 (()=>{
 	  Array.prototype.reverse=()=>{
-			console.log("[-] Sorry You Shouldn,t Use This Try Your Use Your Logic");
+			console.log("[-] Sorry You Shouldn,t Use This Try Use Your Logic");
 	  }
 	  Array.prototype.sort=Array.prototype.reverse;
 })();
