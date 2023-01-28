@@ -75,5 +75,5 @@ Declare A Class Called `Developer` Which inherit all Methods,Attributes from Cla
 ### 3. Third Mission 
 
 1. Create a Function return -> a Promise and That Promise -> return "I Finished " after 10 Seconds 
-2. Then Create  an Async Function inside it and Call The Previous  Function  and Awaits it,s return value then then log the returned value 
+2. Then Create  an Async Function and inside it  Call The Previous  Function  and Awaits it,s return value then then log or print the returned value 
 
