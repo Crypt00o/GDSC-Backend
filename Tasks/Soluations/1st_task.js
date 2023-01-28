@@ -20,7 +20,8 @@ function reverseArraySoluation(someArray){
 	       // My Soluation 
 			for(let i =0 ; i<someArray.length/2 ; i++){
 				  let tmp=someArray[i]
-				  someArray[i]=someArray[someArray.length -1 - i]				   someArray[someArray.length -1 - i]=tmp
+				  someArray[i]=someArray[someArray.length -1 - i]
+				  someArray[someArray.length -1 - i]=tmp
 			}
 			
 	  // Write Your Logic Here Above This Comment
@@ -53,7 +54,7 @@ function whoAmI(someObject){
 	  //  you can,t overwrite gitHubUrl  because it was unwritable , but it was configurable mean can be deleted so we will delete it and initialaize it again with new value without any problem
 
 	  delete someObject.gitHubUrl 
-	  someObject.gitHubUrl="https://github.com/john"
+	  someObject.gitHubUrl="https://github.com/john" // your github url
 	  
 	  
 	  return;
@@ -107,7 +108,7 @@ function testWhoAmI(){
 	  
 	  whoAmI(me)
 	  
-	  if (me.name !="eslam mohamed" || me.age !==0 || me.gitHubUrl!= "https://github.com/Crypt00o/" ){
+	  if (me.name =="eslam mohamed" || me.age ===0 || me.gitHubUrl== "https://github.com/Crypt00o/" ){
 			console.log("[-] whoAmI Didn,t Pass , try harder")
 			console.log( me )
 

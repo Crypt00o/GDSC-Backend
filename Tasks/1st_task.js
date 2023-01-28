@@ -88,7 +88,7 @@ function testWhoAmI(){
 	  
 	  whoAmI(me)
 	  
-	  if (me.name !="eslam mohamed" || me.age !==0 || me.gitHubUrl!= "https://github.com/Crypt00o/" ){
+	  if (me.name =="eslam mohamed" || me.age ===0 || me.gitHubUrl== "https://github.com/Crypt00o/" ){
 			console.log("[-] whoAmI Didn,t Pass , try harder")
 			console.log( me )
 
@@ -140,7 +140,7 @@ function testArrayReverse(){
 console.log("1) - Reverseing Array Result : ")
 testArrayReverse()
 console.log("\n---------------------------\n")
-console.log("2) - Reverseing Array Result : ")
+console.log("2) - FixMe Result : ")
 fixMe()
 console.log("\n---------------------------\n")
 console.log("3) -  WhoAmi Result ")
