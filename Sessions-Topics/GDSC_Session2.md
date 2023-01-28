@@ -21,6 +21,7 @@
 ## Compiled language Vs Interpreted Language
 
 #### Compiled Languages
+
 - Compiled languages are converted directly into machine code that the processor can execute. As a result, they tend to be faster and more efficient to execute than interpreted languages. They also give the developer more control over hardware aspects, like memory management and CPU usage.
 <br>
 - Compiled languages need a “build” step – they need to be manually compiled first. You need to “rebuild” the program every time you need to make a change. In our hummus example, the entire translation is written before it gets to you. If the original author decides that he wants to use a different kind of olive oil, the entire recipe would need to be translated again and resent to you.
@@ -53,10 +54,10 @@ The main advantage here is that all kinds of checking can be done by the compile
 Examples: C, C++, Java, Rust, Go, Scala
 
 - example in c :
-	  `
+	  ```
 	  char my_name[6] ="eslam mohamed";  
 	  int age = 21 ;
-	  `
+	  ```
 
 #### Dynamically Typed Languages
 A language is dynamically typed if the type is associated with run-time values, and not named variables/fields/etc. This means that you as a programmer can write a little quicker because you do not have to specify types every time (unless using a statically-typed language with type inference).
@@ -68,8 +69,11 @@ Most scripting languages have this feature as there is no compiler to do static 
 Most dynamically typed languages do allow you to provide type information, but do not require it. One language that is currently being developed, Rascal, takes a hybrid approach allowing dynamic typing within functions but enforcing static typing for the function signature.
 
 - example in python :
-`myName = "eslam mohamed"`
-`age = 21`
+
+```
+myName = "eslam mohamed"
+age = 21
+```
 	  
 <br><br>
 ---
@@ -146,12 +150,16 @@ Most dynamically typed languages do allow you to provide type information, but d
 Here are some examples of variable declarations:
 
 
-`let myName = "Eslam Mohamed"; // initializing a variable with a string value`
-`let myAge = 21; // initializing a variable with a number value`
-`let isAdult = true; // initializing a variable with a boolean value`
-`const pi = 3.14; // initializing a variable that can't be reassigned`
+```
+let myName = "Eslam Mohamed"; // initializing a variable with a string value
+let myAge = 21; // initializing a variable with a number value
+let isAdult = true; // initializing a variable with a boolean value
+const pi = 3.14; // initializing a variable that can't be reassigned
+```
 - You can also declare a variable without initializing it with a value, like this:
-`let x;` 
+```
+let x;
+``` 
 
 -You can use variables in JavaScript in many ways, for example, you can use them in mathematical operations, string manipulation, and so on.
 
@@ -204,10 +212,12 @@ Here are some examples of variable declarations:
 
 - For example, consider the following code:
 
-`let arr = [1, 2, 3];`
-`let newArr = arr;`
-`newArr.push(4);`
-`console.log(arr); // [1, 2, 3, 4]`
+```
+let arr = [1, 2, 3];
+let newArr = arr;
+newArr.push(4);
+console.log(arr); // [1, 2, 3, 4]
+```
 
 - In this example, the variable "arr" is assigned an array containing the values 1, 2, and 3. The variable "newArr" is then assigned the value of "arr", which is a reference to the same array. When we push the value 4 to the "newArr" array, it also changes the "arr" array, this is because both variables are referencing the same array in memory.
 
@@ -229,25 +239,32 @@ Here are some examples of variable declarations:
 - One of the most common ways to create an object is using an object literal. This is done by enclosing a set of key-value pairs in curly braces {}. For example:
 
 
-`const me = {
+```
+const me = {
 name: "Eslam Mohamed",
 age : 21
- };`
+ };
+
+```
 
 - Properties can be accessed using the dot notation, like me.name or me.age.
 
 - You can also use the object constructor to create objects. This is done by calling the Object() constructor and passing in an initial set of properties. 
 
 For example:
-`const me = new Object();`
-`me.name = "Eslam Mohamed";`
-`me.age = 21;`
+
+```
+const me = new Object();
+me.name = "Eslam Mohamed";
+me.age = 21;
+```
 
 - Objects in JavaScript are also extensible and mutable, meaning that properties can be added, removed, or modified after the object is created.
 
 - You can also use Object.create() method to create an object, this method creates a new object with the specified prototype object and properties.
 
-`const me = Object.create(Object.prototype, {
+```
+const me = Object.create(Object.prototype, {
   name: {
     value: 'Eslam Mohamed,
     enumerable: true,
@@ -260,7 +277,8 @@ For example:
     writable: true,
     configurable: true
   }
-});`
+});
+```
 
 <br><br>
 ---
@@ -275,19 +293,25 @@ For example:
 - One of the most common ways to create an array is using an array literal. This is done by enclosing a set of values separated by commas in square brackets []. 
 For example:
 
-`const numbers = [1, 2, 3, 4, 5];`
-`const colors = ['red', 'green', 'blue'];`
+```
+const numbers = [1, 2, 3, 4, 5];
+const colors = ['red', 'green', 'blue'];
+```
 
 -Elements in the array can be accessed using the square bracket notation, like numbers[0] or colors[2].
 
 - You can also use the array constructor to create arrays. This is done by calling the Array() constructor and passing in an initial set of elements. For example:
 
 
-`const numbers = new Array(1, 2, 3, 4, 5);`
+```
+const numbers = new Array(1, 2, 3, 4, 5);
+```
 
 - You can also use Array.from() method to create an array from an array-like or iterable object.
 
-`const numbers = Array.from({0:1,1:2,2:3,3:4,4:5,length:5});`
+```
+const numbers = Array.from({0:1,1:2,2:3,3:4,4:5,length:5});
+```
 
 - Arrays in JavaScript have built-in methods that can be used to manipulate the elements, such as push() for adding elements, pop() for removing elements, and sort() for sorting the elements.
 
@@ -310,28 +334,32 @@ For example:
 - Function declarations are defined using the function keyword, followed by the name of the function and a set of parentheses that contains any input parameters (also known as "arguments") that the function takes. The function's code block is wrapped in curly braces {}.
 
 For example:
-
-`function add(x, y) {
-  return x + y;
-}`
+```
+	  function add(x, y) {
+			return x + y;
+	  }
+```
 
 - This example defines a function named "add" that takes two arguments, "x" and "y", and returns the sum of the two arguments.
 
 - Function expressions are defined using the function keyword, but instead of being given a name, it's assigned to a variable. For example:
 
-
-`const multiply = function(x, y) {
-  return x * y;
-};`
+```
+	  const multiply = function(x, y) {
+			return x * y;
+	  };
+```
 
 - This example defines an anonymous function that multiplies two numbers and assigns it to the variable multiply.
 
 - Functions can also be defined using arrow function expressions. Arrow function expressions are a shorthand syntax for function expressions that use the => operator. For example:
 
 
-`const divide = (x, y) => {
-  return x / y;
-};`
+```
+	  const divide = (x, y) => {
+			return x / y;
+	  };
+```
 
 - This example defines an anonymous arrow function that divides two numbers and assigns it to the variable divide.
 
@@ -339,8 +367,10 @@ For example:
 
 For example:
 
-`const result = add(3, 4);
-console.log(result); // 7`
+```
+const result = add(3, 4);
+console.log(result); // 7
+```
 
 - Functions are an important part of JavaScript because they allow for code reuse, making it easier to write and maintain large programs. Functions can also be used to encapsulate complex logic and make it more readable, and they can also be passed as arguments to other functions, making them first-class citizens in JavaScript.
 
