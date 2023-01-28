@@ -3,6 +3,9 @@
 <br><br>
 
 #### Contents
-1. [Session1](./GDSC_Session1.pptx)
-2. [Session2](./GDSC_Session2.md)
-3. [Session3](./GDSC_Session3.md)
+| Session								  |		Description												 |
+|-----------------------------------------|--------------------------------------------------------------|
+| 1. [Session1](./GDSC_Session1.pptx)     | What is Serverside ? And What is Http ? And How It Work	? Talking About Backend Techonlgies Specially [ Nodejs + PHP ] |
+| 2. [Session2](./GDSC_Session2.md)       | What is Javascript , EcmaScript , Top Js Engineies , Run Time Enviroment(Nodejs) , Js Basics  |
+| 3. [Session3](./GDSC_Session3.md)       | OOP in Javascript as Theory , And Practical Examples on Acheiveing OOP princibles with Javascript + Promises + Async/Await| 
+
