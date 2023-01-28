@@ -105,6 +105,10 @@ In this example, child inherits from Parent.prototype, so it has access to any p
 
 ```
 class Person {
+  
+  name 
+  age
+
   constructor(name, age) {
     this.name = name;
     this.age = age;
@@ -143,6 +147,7 @@ In the example above, new Person("Eslam Mohamed", 21) creates a new object and c
 
 ```
 class Person {
+ 
  name
  age
   
@@ -155,8 +160,9 @@ class Person {
     console.log('Hello, my name is ',this.name,' and I am ',this.age, 'years old.');
   }
 }
+```
 And here's an example of a Student class that inherits from the Person class:
-
+```
 class Student extends Person {
  
  major
@@ -194,8 +200,10 @@ student.study();  // Output: "I am studying Computers && Information Technology.
 
 ```
 class Person {
+
 #name
 #age
+
   constructor(name, age) {
     this.#name = name;
     this.#age = age;
@@ -204,6 +212,7 @@ class Person {
   greet() {
     console.log('Hello, my name is ',this.#name,' and I am ',this.#age, 'years old.');
   }
+
 }
 ```
 - In this example, the `name` and `age` properties are marked as `private` by prefixing them with a hashtag (`#`). This means that they can only be accessed from within the class and not from outside.
@@ -278,6 +287,7 @@ class Animal {
 }
 ```
 - After that, we can create our concrete Classes. These classes will inherit all functions and behaviour from abstract class.
+
 ```
 /**
  * Dog.
@@ -477,6 +487,7 @@ async function example() {
   // asynchronous code here
 }
 ```
+
 - `await` is a keyword that is used inside an asynchronous function to pause the execution of the function until a promise is `settled` (`fulfilled` or `rejected`).
 
 ```
