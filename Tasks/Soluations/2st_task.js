@@ -119,7 +119,7 @@ function returnPromiseIFinished(){
 						resolve("I Finished")
 
 				  },
-			3000
+			10000
 			)
 
 	  })
