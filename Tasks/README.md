@@ -8,4 +8,4 @@
 |	Task					   | Soluation									|
 |------------------------------|---------------------------------------------
 | 1. [Task 1](./1st_task.js)   | [Soluation](./Soluations/1st_task.js)      |
-| 2. [Task 2](./2nd_task.md)   | [Soluation](./Soluations/2st_task.js)		|
+| 2. [Task 2](./2nd_task.md)   | [Soluation](./Soluations/2st_task.js) - [Another-Soluation](./Soluations/2st_task_another_soluation.js)		|
