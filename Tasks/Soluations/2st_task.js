@@ -96,7 +96,7 @@ class Developer extends Person {
 				  return true
 	  }
 
-	  getDatabases(){
+	  getProgrammingLanguges(){
 			return this.#programmingLanguges
 	  }
 
